@@ -1,0 +1,285 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio Website</title>
+    <link rel="stylesheet" href="style.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css">
+</head>
+
+<body>
+    <div class="wrapper">
+        <div class="cover cover-left"></div>
+        <div class="cover cover-right"></div>
+
+        <div class="book">
+            <!-- Profile page -->
+            <div class="book-page page-left">
+                <div class="profile-page">
+                    <img src="images/profile_img.jpg"> <!--insert image link here-->
+                    <h1> Kingsley M. Kaliye</h1>
+                    <h3> Software Engineer </h3>
+
+                    <div class="social-media">
+                        <a href="https://web.facebook.com/kingsley.kaliye.2025" target="_blank"><i class="bx bxl-facebook"></i></i></a>
+                        <a href="https://linkedin.com/in/kaliye.kingsley" target="_blank"><i class="bx bxl-linkedin"></i></i></a>
+                        <a href="https://wa.me/260967268298" target="_blank" rel="noopener noreferrer"><i class="bx bxl-whatsapp"></i></a>
+                        <a href="https://t.me/kaliye.kingsley" target="_blank" rel="noopener noreferrer"><i class="bx bxl-telegram"></i></a>
+                    </div>
+
+                    <p> Hi, I'm Kingsley Kaliye., Software Engineer. Lorem ipsum 
+                        dolor sit amet consectetur adipisicing elit. Quae aliquid
+                        nihil earum quod excepturi architecto doloribus eius nemo 
+                        ratione asperiores. Culpa, est.
+                    </p>
+
+                    <div class="btn-box">
+                        <!--<a href="my_cv.pdf" class="btn" download>Download CV</a>-->
+                        <a href="cv/my_cv.pdf" target="_blank" class="btn">View CV</a>
+                        <a href="#" class="btn contact-me"> Contact Me </a>
+                    </div>
+
+                </div>
+            </div>
+            <!--page 1 & 2 -->
+            <div class="book-page page-right turn" id="turn-1">
+                <!--page-1 (work experience)-->
+                <div class="page-front">
+                    <h1 class="title"> Work Experience</h1>
+
+                    <div class="workeduc-box">
+                        <div class="workeduc-content">
+                            <span class="year"><i class='bx bxs-calender'></i>2019 - Date</span>
+                            <h3> Instrumentation Artisan - Lubambe Copper Mine Ltd </h3>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                        </div>
+
+                        <div class="workeduc-content">
+                            <span class="year"><i class='bx bxs-calender'></i>2014 - 2019</span>
+                            <h3> Instrumentation Artisan - Chambeshi Metals Plc </h3>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                        </div>
+
+                        <div class="workeduc-content">
+                            <span class="year"><i class='bx bxs-calender'></i>2007 - 2011</span>
+                            <h3> Instrumentation Artisan - Konkola Copper Mines Plc </h3>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                        </div>
+                    </div>
+
+                    <span class="number-page"> 1 </span>
+                   <!-- next page button -->
+                    <span class="nextprev-btn" data-page="turn-1">
+                        <i class='bx bx-chevron-right'></i>
+                    </span>
+
+                </div>
+                <!--page-2 (education)-->
+                <div class="page-back">
+                    <h1 class="title"> Education </h1>
+                        <div class="workeduc-box">
+                        <div class="workeduc-content">
+                            <span class="year"><i class='bx bxs-calender'></i>2021 - 2026</span>
+                            <h3> Bachelors Degree - ICU University </h3>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                        </div>
+
+                        <div class="workeduc-content">
+                            <span class="year"><i class='bx bxs-calender'></i>2005 - 2007</span>
+                            <h3> Craft Certificate - Kitwe Trades School </h3>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                        </div>
+
+                        <div class="workeduc-content">
+                            <span class="year"><i class='bx bxs-calender'></i>2002 - 2004</span>
+                            <h3> GCE - Kasempa Day Secondary School </h3>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                        </div>
+                    </div>
+                    <span class="number-page"> 2 </span>
+
+                    <!--next button -->
+                    <span class="nextprev-btn back" data-page="turn-1">
+                        <i class='bx bx-chevron-left'></i>
+                    </span>
+                </div>
+            </div>
+            <!--page 3 & 4 -->
+            <div class="book-page page-right turn" id="turn-2">
+                <!-- page 3 (my services)-->
+                <div class="page-front">
+                    <h1 class="title"> My Services</h1>
+                    <div class="services-box">
+                        <div class="services-content">
+                            <i class='bx bx-code-alt'></i>
+                            <h3> Web Delopment </h3>
+                            <p> Lorem ipsum dolor sit, amet consectetur.</p>
+                            <a href="#" class="btn"> Read more </a>
+                        </div>
+
+                        <div class="services-content">
+                            <i class='bx bxs-paint'></i>
+                            <h3> Creative design </h3>
+                            <p> Lorem ipsum dolor sit, amet consectetur.</p>
+                            <a href="#" class="btn"> Read more </a>
+                        </div>
+
+                        <div class="services-content">
+                            <i class='bx bx-bar-chart-alt'></i>
+                            <h3> Digital Marketing </h3>
+                            <p> Lorem ipsum dolor sit, amet consectetur.</p>
+                            <a href="#" class="btn"> Read more </a>
+                        </div>
+
+                        <div class="services-content">
+                            <i class="bx bx-search"></i>
+                            <h3> SEO </h3>
+                            <p> Lorem ipsum dolor sit, amet consectetur.</p>
+                            <a href="#" class="btn"> Read more </a>
+                        </div>
+                    </div>
+
+                    <!-- Page Number-->
+                    <span class="number-page">3</span>
+
+                    <!--next page -->
+                    <span class="nextprev-btn" data-page="turn-2">
+                        <i class='bx bx-chevron-right'></i>
+                    </span>          
+                    
+                </div>
+
+                <!--page 4 (my skills)-->
+                <div class="page-back">
+                    <h1 class="title"> My Skills</h1>
+                    <div class="skills-box">
+                        <div class="skills-content">
+                            <h3> Fron-End </h3>
+                            <div class="content">
+                                <span><i class='bx bxl-html5'></i>HTML</span>
+                                <span><i class='bx bxl-css3'></i>CSS</span>
+                                <span><i class='bx bxl-javascript'></i>JS</span>
+                                <span><i class='bx bxl-react'></i>React</span>
+
+                            </div>
+                        </div>
+
+                        <div class="skills-content">
+                            <h3> Back-End </h3>
+                            <div class="content">
+                                <span><i class='bx bxl-html5'></i>Python</span>
+                                <span><i class="devicon-cplusplus-plain" style="font-size: 24px;"></i>C++</span>
+                                <span><i class='bx bxl-nodejs'></i>NodeJS</span>
+
+                            </div>
+                        </div>
+
+                        <div class="skills-content">
+                            <h3> UI/UX Design </h3>
+                            <div class="content">
+                                <span><i class='bx bxl-figma'></i>Figma</span>
+                            </div>
+                        </div>
+
+                        <div class="skills-content">
+                            <h3> Version Control </h3>
+                            <div class="content">
+                                <span><i class='bx bxl-git'></i>Git</span>
+                                <span><i class='bx bxl-github'></i>GitHub</span>
+                            </div>
+                        </div>
+
+                    </div>
+
+                     <!-- Page Number-->
+                    <span class="number-page">4</span>
+
+                    <!-- Next page button -->
+                    <span class="nextprev-btn back" data-page="turn-2">
+                        <i class='bx bx-chevron-left'></i>
+                    </span>
+
+                </div>
+
+            </div>
+
+            <!--page 5 & 6 -->
+            <div class="book-page page-right turn" id="turn-3">
+                <!-- page 5 (my portfolio or latest projects)-->
+                <div class="page-front">
+                    <h1 class="title"> Latest Project </h1>
+                    <class class="portfolio-box">
+                        <div class="img-box">
+                            <img src="images/calc.jpg" alt="">
+                        </div>
+                    
+
+                        <div class="info-box">
+                            <div class="info-title">
+                                <h3> Scientific Calculator </h3>
+                                <a href="#"> Live Preview <i class='bx bx-link-external'></i> </a>
+                            </div>
+                            <p> Tech Used </p>
+                            <p> Lorem, ipsum dolor sit amet consectetur adipisicing elit. Delectus, quo!</p>
+                        </div>
+
+                        <div class="btn-box">
+                            <a href="#" class="btn"> Source Code </a>
+                            <a href="#" class="btn"> More Projects </a>
+                        </div>
+                    </class>
+                     <!-- Page Number-->
+                    <span class="number-page">5</span>
+                    
+                    <!--next page -->
+                    <span class="nextprev-btn turn" data-page="turn-3">
+                        <i class='bx bx-chevron-right'></i>
+                    </span>
+                </div>
+
+                <!--page 6 (my contact page)-->
+                <div class="page-back">
+                    <h1 class="title"> Contact Me</h1>
+                    <div class="contact-box">
+                        <form action="#" id="contact-form">
+                            <input type="text" name="from_name" class="field" placeholder="Your Name" required>
+                            <input type="email" class="field" name="from_email" placeholder="Your Email" required>
+                            <input type="text" class="field" name="subject" placeholder="Subject" required>
+                            <textarea name="message" id="" cols="30" rows="10" class="field" placeholder="Your Message" required>
+
+                            </textarea>
+                            <input type="submit" class="btn" value="Send Message">
+
+                        </form>
+                    </div>
+
+                    <!-- Page Number-->
+                    <span class="number-page">6</span>
+
+                    <!-- Next page button -->
+                    <span class="nextprev-btn back" data-page="turn-3">
+                        <i class='bx bx-chevron-left'></i>
+                    </span>
+
+                    <a href="#" class="back-profile">
+                        <p> Profile </p>
+                        <i class='bx bxs-user'></i>
+                    </a>
+
+                </div>
+
+            </div>
+
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+
+    <script src="script.js"></script>
+
+    
+</body>
+</html>
