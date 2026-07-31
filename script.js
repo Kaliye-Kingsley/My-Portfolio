@@ -126,3 +126,17 @@ form.addEventListener("submit", function(event) {
     });
 
 });
+
+
+function loadPreview(url){
+
+    const container = document.getElementById("previewContainer");
+
+    container.innerHTML = `
+        <iframe
+            src="${url}"
+            frameborder="0"
+            loading="lazy">
+        </iframe>
+    `;
+}

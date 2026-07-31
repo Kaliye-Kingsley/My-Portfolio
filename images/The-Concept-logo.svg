@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg
+    xmlns="http://www.w3.org/2000/svg"
+    viewBox="0 0 200 150"
+    role="img"
+    aria-label="The-Concept Logo">
+
+    <style>
+        .logo{
+            fill:#000dff;
+        }
+
+        .logo polygon{
+            stroke:#000dff;
+            stroke-width:.8;
+            stroke-linejoin:round;
+        }
+
+        .brand-name{
+            font-family:Arial, sans-serif;
+            font-size:12px;
+            font-weight:bold;
+            fill:#000dff;
+        }
+
+        .ideology{
+            font-family:Arial, sans-serif;
+            font-size:6px;
+            fill:#aaaaaa;
+        }
+    </style>
+
+    <g class="logo">
+        <g class="left_shape">
+            <polygon
+                points = "20,70 70,20 95,45 70,70 95,95 70,120"
+            />
+        </g>
+
+        <g class= "diamond">
+            <polygon
+                class= "diamond-shape"
+                points = "100,50 120,70 100,90 80,70"
+            />
+        </g>
+
+        <g class="right_shape">
+            <polygon
+                points = "95,45 120,20 170,70 120,120 95,95 100,90 120,110 160,70 120,30 100,50"
+            />
+        </g>
+    </g>
+
+    <text
+        class="brand-name"
+        x="100"
+        y="138"
+        text-anchor="middle">
+        The-Concept
+    </text>
+
+    <text
+        class="ideology"
+        x="100"
+        y="147"
+        text-anchor="middle">
+        Design • Code • Innovate
+    </text>
+    
+</svg>    
